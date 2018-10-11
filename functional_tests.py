@@ -10,7 +10,7 @@ class NewVisitor(unittest.TestCase):
     def tearDown(self):
         self.browser.quit()
 
-    def test_can_start_list_and_retrieve_laster(self):
+    def test_can_start_list_and_retrieve_later(self):
         # John heard about a new "to-do" list app,
         # he goes to the website.
         self.browser.get("http://localhost:8000")
@@ -40,5 +40,5 @@ class NewVisitor(unittest.TestCase):
 
         # John is satisfied.
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     unittest.main()
